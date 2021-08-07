@@ -1,0 +1,207 @@
+body{
+    background-color: white;
+    
+}
+.header {
+    padding: 0 30px;
+}
+a { text-decoration: none; }
+a:link, a:visited{ color: black;}
+a:hover, a:active{color: black;
+text-decoration: underline;}
+p a:link,p a:visited{ color: blue;}
+footer a:hover,footer a:active{color:  #5f6368;}
+footer a:link,footer a:visited{color:  #5f6368;}
+
+
+.header ul {
+    list-style: none;
+    overflow: hidden;
+    float: right;
+   
+}
+.header ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding: 0px 15px 0px 0px;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: center;
+  
+}
+#applicationIcon {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  opacity: 0.75;
+}
+#Gmail {
+    width: 25px;
+    height: 25px;
+}
+.Google-container{
+    left: calc(50% - 482px/2);
+    top: calc(50% - 272px/2);
+    position: absolute;
+    flex-direction:column;
+    justify-items: center;
+    overflow: hidden;
+}
+#imgGoogle{
+    background-repeat: no-repeat;
+    margin-left: 90px;
+}
+#searshBox {
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    font-size: 16px;
+    height: 40px;
+    width: 480px;
+    margin: 20px auto;
+
+}
+#microphoneIcone{
+    width: 20px;
+    margin-top: 11px;
+    margin-right: 15px;
+}
+#searchIcon{
+    width: 30px;
+    margin-top: 9px;
+    margin-left: 15px;
+    
+}
+#box-input {
+    height: 9px;
+    width:95%;
+    padding: 8px;
+    margin:8px;
+    margin-right: 200px;
+    border:none;
+    display: flex;
+    outline: none;
+}
+input[type="submit"] {
+    font-family: HelveticaNeue,'Noto Naskh Arabic UI',Arial,sans-serif;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    height: 30px;
+    color: #5F6368;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+}
+#inputSearsh{
+    display: inline-block;
+    margin-left:117px;
+    justify-content:space-around;
+}
+p{
+    display: inline-block;
+    justify-content: center;
+    text-align: left;  }
+#text{  
+    justify-content: center;
+    margin-left:160px;
+    text-align: left;  
+   }
+
+   .footer {
+    background: #f2f2f2;
+    font-size: 15px;
+    line-height: 40px;
+    min-width: 980px;
+    position: absolute;
+    left: -1px;
+
+    width: 100%;
+    bottom: 0;
+    direction: rtl;
+}
+.pal {
+    direction: ltr;
+
+    color: rgba(0,0,0,.54);
+    border-top: 1px solid #e4e4e4;
+    font-size: 15px;
+    line-height: 40px;
+}
+.footer-nav {
+    overflow: hidden;
+    border-top: 1px solid #e4e4e4;
+    padding-right: 30px;
+    padding-left: 3px;
+}
+.footer-nav a {
+   
+    text-align: center;
+    padding: 0 27px 0 0;
+    text-decoration: none;
+    display: inline-block;
+    color: #5f6368;
+    background: #f2f2f2;
+  }
+  .left-nav {
+    direction: ltr;
+    float: left;
+    padding: 0 -27px;
+  }
+  .right-nav{
+    direction: rtr;
+    float: right;
+    padding: 0 -27px;
+  }
+
+  @media  (max-width: 800px) {
+    h1::after{content: "800jkgjhfghlsd;S"}
+    body
+    {background-color: blue;}
+    .footer {
+        background: #f2f2f2;
+        font-size: 15px;
+        line-height: 40px;
+        min-width: 980px;
+        
+        width: 100%;
+        bottom: 0;
+        
+    position: absolute;
+    left: -1px;
+
+    }
+    .pal {
+        /* direction: ltr; */
+    text-align: center;
+        color: rgba(0,0,0,.54);
+        border-top: 1px solid #e4e4e4;
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .footer-nav {
+        overflow: hidden;
+        border-top: 1px solid #e4e4e4;
+        /* padding-right: 30px;
+        padding-left: 3px; */
+        text-align: center;
+    }
+    .footer-nav a {
+       
+        text-align: center;
+        padding: 0 27px 0 0;
+        text-decoration: none;
+        display: inline-block;
+        color: #5f6368;
+        background: #f2f2f2;
+      }
+      .left-nav {
+        direction: ltr;
+        float: left;
+        padding: 0 -27px;
+      }
+    
+   
+   }
